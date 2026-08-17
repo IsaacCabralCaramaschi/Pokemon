@@ -1,0 +1,49 @@
+*body {
+    background-color: #c71111;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    color: #333;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.pokemon-img {
+    height: 180px;
+    object-fit: contain;
+    padding: 15px;
+    background-color: rgb(255, 167, 167);
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    color: #000000;
+    font-size: 16px;
+}
+
+.btn {
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-weight: bold;
+}
+
+.row {
+    margin-top: 20px;
+}
